@@ -5,7 +5,7 @@ Build a web app that fullfills the following two endpoints:
 `localhost:8080/current_time` returns the current Unix time.
 ```json
 {
-    current_time: 123456789
+    "current_time": 123456789
 }
 ```
 
@@ -13,9 +13,9 @@ Build a web app that fullfills the following two endpoints:
 ```json
 [
     {
-        name: "Suhaib Malik",
-        favorite_dessert: "Almond Bearclaw",
-        likes_yellow: false,
+        "name": "Suhaib Malik",
+        "favorite_dessert": "Almond Bearclaw",
+        "likes_yellow": false,
     },
     {
         ...
