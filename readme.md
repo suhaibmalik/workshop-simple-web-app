@@ -1,4 +1,6 @@
-## Day 2: Build a Web Server
+# Day 2: Build a Web Server
+
+## Instructions
 
 Build a web app that fullfills the following two endpoints:
 
@@ -23,3 +25,7 @@ Build a web app that fullfills the following two endpoints:
 ]
 ```
 List at least two persons.
+
+## Tips
+
+Use `go build` to build the binary so that your dependencies are included in the `go.mod` file.
