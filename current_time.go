@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-// todo: replace CurrentTime with the time.Time type
+// todo: replace CurrentTime with the int type
 type CurrentTimeResponse struct {
 	CurrentTime string
 }

@@ -11,7 +11,7 @@ Build a web app that fullfills the following two endpoints:
 }
 ```
 
-`/locahost:8080/pairs` returns a list of the pairs who wrote the code with some attributes.
+`locahost:8080/pairs` returns a list of the pairs who wrote the code with some attributes.
 ```json
 [
     {
