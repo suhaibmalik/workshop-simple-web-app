@@ -11,6 +11,7 @@ type CurrentTimeResponse struct {
 	CurrentTime string
 }
 
+// todo: return the current time
 func currentTimeHandler(w http.ResponseWriter, r *http.Request) {
 	ctr := CurrentTimeResponse{
 		CurrentTime: "0",
